@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/upload_exam_rg"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/upload_exam_ct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="CT Paper"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/upload_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textCapWords"
+            android:hint="Subject Name"/>
+
+        <Spinner
+            android:id="@+id/upload_branch_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:id="@+id/upload_semester_spinner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"/>
+
+
+        <AutoCompleteTextView
+            android:id="@+id/upload_college_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textCapWords"
+            android:hint="College Name"/>
+
+
+
+        <RadioGroup
+            android:id="@+id/upload_ct_rg"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/upload_ct_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="CT 1"/>
+            <RadioButton
+                android:id="@+id/upload_ct_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CT 2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginTop="20dp"
+            android:text="Please don't upload invalid document as we'll not approve invalid docs. Also note we're currently accepting contents for Bachelor of Technology course only."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkBlue"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="Doc. should be less than 2MB"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_select_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:minWidth="256dp"
+            android:fontFamily="@font/sans_bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="Select document"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkBlue"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="We'll review within 24 hours and will sent you status via email."/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upload_submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:minWidth="256dp"
+            android:fontFamily="@font/sans_bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="Send for review"/>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

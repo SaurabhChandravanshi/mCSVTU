@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">mCSVTU</string>
+    <string name="navigation_drawer_open">Navigation open</string>
+    <string name="navigation_drawer_close">Navigation close</string>
+    <string name="results">Exam Result</string>
+    <string name="regular">REG</string>
+    <string name="re_totaling">RT</string>
+    <string name="re_val">RV</string>
+    <string name="re_re_val">RRV</string>
+
+    <string name="privacy_policy">https://mcsvtu.web.app/policies/privacy-policy.html</string>
+    <string name="terms_and_conditions">https://mcsvtu.web.app/policies/terms-and-conditions.html</string>
+
+    <string name="def_err_message">Sorry for inconvenience but currently we can\'t operate, Please report if issue persist after multiple tries.</string>
+
+    <string name="adMob_app_id">ca-app-pub-5585717909119280~3566670027</string>
+    <string name="native_ad_unit">ca-app-pub-5585717909119280/4923450893</string>
+    <string name="interstitial_ad_unit">ca-app-pub-5585717909119280/2780503283</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="account_header">Account</string>
+    <string name="gen_header">General</string>
+
+    <!-- Messages Preferences -->
+    <string name="disp_name_title">Your display name</string>
+    <string name="course_title">Select course</string>
+
+    <!-- Sync Preferences -->
+    <string name="launcher_title">Launch My mCSVTU on StartUp</string>
+
+</resources>

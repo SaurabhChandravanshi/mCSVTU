@@ -1,0 +1,20 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="course_entries">
+        <item>Bachelor of Technology</item>
+        <item>Diploma in Engineering</item>
+        <item>Master of Business Administration</item>
+        <item>Bachelor of Pharmacy</item>
+        <item>Master of Computer Application</item>
+        <item>Master of Technology</item>
+    </string-array>
+
+    <string-array name="course_values">
+        <item>BTECH</item>
+        <item>DIPLOMA</item>
+        <item>MBA</item>
+        <item>BPHARM</item>
+        <item>MCA</item>
+        <item>MTECH</item>
+    </string-array>
+</resources>

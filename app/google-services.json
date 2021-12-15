@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773959316543",
+    "project_id": "ourcsvtu",
+    "storage_bucket": "ourcsvtu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773959316543:android:b510875248aabdaa81348a",
+        "android_client_info": {
+          "package_name": "com.saurabhchandr.em"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773959316543-9je4a2imd8egcuoijqgvs8sefa1bk59t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqzMWojThsepsBtHQeF-2sQ3iW3wo8Yfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773959316543-9je4a2imd8egcuoijqgvs8sefa1bk59t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

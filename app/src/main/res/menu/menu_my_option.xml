@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Notice"
+        android:id="@+id/my_option_notice"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="always"/>
+    <item android:title="General">
+            <menu>
+                <item
+                    android:id="@+id/my_option_rate_app"
+                    android:title="Rate App" />
+                <item
+                    android:id="@+id/my_option_share"
+                    android:title="Share App" />
+                <item
+                    android:id="@+id/my_option_dev_page"
+                    android:title="More Apps" />
+            </menu>
+    </item>
+
+    <item android:title="Policies">
+        <menu>
+            <item android:id="@+id/my_option_privacy"
+                android:title="Privacy Policy" />
+            <item android:id="@+id/my_option_terms"
+                android:title="Terms &amp; Conditions"/>
+        </menu>
+    </item>
+    <item android:id="@+id/my_option_settings"
+        android:title="Settings"/>
+</menu>

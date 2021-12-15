@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Rate this App" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share this App" />
+        <item
+            android:id="@+id/nav_dev_page"
+            android:icon="@drawable/ic_baseline_open_in_new_24"
+            android:title="More Useful Apps" />
+    </group>
+
+    <item android:title="User access">
+        <menu>
+            <item
+                android:id="@+id/nav_my_mcsvtu"
+                android:title="My mCSVTU" />
+        </menu>
+    </item>
+    <group>
+        <item android:title="Policies">
+            <menu>
+                <item android:id="@+id/nav_privacy"
+                    android:title="Privacy Policy"
+                    android:icon="@drawable/ic_baseline_open_in_new_24"/>
+                <item android:id="@+id/nav_terms"
+                    android:icon="@drawable/ic_baseline_open_in_new_24"
+                    android:title="Terms &amp; Conditions"/>
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Contact us">
+            <menu>
+                <item android:id="@+id/nav_live_chat"
+                    android:title="Live Chat Support"
+                    android:icon="@drawable/ic_baseline_support_agent_24"/>
+                <item android:id="@+id/nav_report_problem"
+                    android:icon="@drawable/ic_baseline_report_problem_24"
+                    android:title="Report Bug or Problem"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
